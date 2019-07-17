@@ -1,8 +1,9 @@
 def my_each(collection)
   n = collection.length
   if block_given?
-    n = 0 
-    
+    i = 0 
+    while i < n 
+    yield collection[i]
   # code here
 end
 
