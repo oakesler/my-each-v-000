@@ -1,5 +1,6 @@
 def my_each(collection)
   n = collection.length
+  if block_given?
   # code here
 end
 
