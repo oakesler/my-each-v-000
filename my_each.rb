@@ -4,7 +4,9 @@ def my_each(collection)
     i = 0 
     while i < n 
     yield collection[i]
-  # code here
+     i += 1
+   else
+     
 end
 
 my_each([1, 2, 3, 4]) do |i|
