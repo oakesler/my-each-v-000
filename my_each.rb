@@ -1,4 +1,5 @@
 def my_each(collection)
+  n = collection.length
   # code here
 end
 
