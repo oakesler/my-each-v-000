@@ -6,10 +6,7 @@ def my_each(collection)
     yield collection[i]
      i += 1
    end
- else 
-   puts "No block was given!"
  end
-end
 
 my_each([1, 2, 3, 4]) do |i|
   puts i 
